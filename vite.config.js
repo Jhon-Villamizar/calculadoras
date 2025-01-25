@@ -8,4 +8,11 @@ export default defineConfig({
     preact(),
     tailwindcss(),
   ],
+  server: {
+    host: true,
+    port: 3001,
+    watch: {
+      usePolling: true,
+    }
+  }
 })
