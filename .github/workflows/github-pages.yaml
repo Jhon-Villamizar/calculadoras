@@ -3,7 +3,8 @@ name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push: [push, pull_request]
+  push:
+    branches: ['main']
 
 jobs:
   # Single deploy job since we're just deploying
