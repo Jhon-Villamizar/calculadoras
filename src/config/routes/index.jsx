@@ -15,5 +15,6 @@ export const router = createBrowserRouter([
     ]
   }
 ], {
+  basename: '/calculadoras',
   future: { v7_startTransition: true },
 })
